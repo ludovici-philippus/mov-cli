@@ -1,5 +1,5 @@
 <h1 align="center">Mov-Cli</h1>
-<h2 align="center">Notflix Fork</h2>
+<p align="center"><strong>Notflix Fork</strong></p>
 <p align="center">f@#k netflix use mov-cli a tool which search magnet links and stream it with peerflix</p>
 
 ##
@@ -26,7 +26,7 @@ cURL **mov-cli** to your **$PATH** and give execute permissions.
 
 ```sh
 $ sudo curl -sL "https://raw.githubusercontent.com/ludovici-philippus/mov-cli/master/mov-cli" -o /usr/local/bin/notflix
-$ sudo chmod +x /usr/local/bin/notflix
+$ sudo chmod +x /usr/local/bin/mov-cli
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
 - To uninstall, simply remove `notflix` from your **$PATH**, for example `sudo rm -f /usr/local/bin/notflix.
