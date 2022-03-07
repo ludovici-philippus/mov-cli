@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+[ -z "$1" ] && echo "You need to write the movie's name!" && exit
 query=$(printf '%s' "$*" | tr ' ' '+')
 movie=$(curl -s https://www.1377x.to/search/${query}/1/ | grep -Eo "torrent\/[0-9]{7}\/[a-zA-Z0-9?%-]*/" | head -n 1)
 magnet=$(curl -s https://www.1377x.to/${movie} | grep -Po "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" | head -n 1)
