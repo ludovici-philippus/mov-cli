@@ -25,11 +25,11 @@ For scraping script use simple gnu utils like sed, awk, paste, cut.
 cURL **mov-cli** to your **$PATH** and give execute permissions.
 
 ```sh
-$ sudo curl -sL "https://raw.githubusercontent.com/ludovici-philippus/mov-cli/master/mov-cli" -o /usr/local/bin/notflix
+$ sudo curl -sL "https://raw.githubusercontent.com/ludovici-philippus/mov-cli/master/mov-cli" -o /usr/local/bin/mov-cli
 $ sudo chmod +x /usr/local/bin/mov-cli
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
-- To uninstall, simply remove `notflix` from your **$PATH**, for example `sudo rm -f /usr/local/bin/notflix.
+- To uninstall, simply remove `mov-cli` from your **$PATH**, for example `sudo rm -f /usr/local/bin/notflix.
 
 ## License
 This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/Illumina/licenses/master/gpl-3.0.txt).
