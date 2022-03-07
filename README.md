@@ -29,7 +29,7 @@ $ sudo curl -sL "https://raw.githubusercontent.com/ludovici-philippus/mov-cli/ma
 $ sudo chmod +x /usr/local/bin/mov-cli
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
-- To uninstall, simply remove `mov-cli` from your **$PATH**, for example `sudo rm -f /usr/local/bin/notflix.
+- To uninstall, simply remove `mov-cli` from your **$PATH**, for example `sudo rm -f /usr/local/bin/mov-cli.
 
 ## License
 This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/Illumina/licenses/master/gpl-3.0.txt).
