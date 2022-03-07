@@ -1,5 +1,6 @@
-<h1 align="center">NOTFLIX</h1>
-<p align="center">f@#k netflix use notflix a tool which search magnet links and stream it with peerflix</p>
+<h1 align="center">Mov-Cli</h1>
+<h2 align="center">Notflix Fork</h2>
+<p align="center">f@#k netflix use mov-cli a tool which search magnet links and stream it with peerflix</p>
 
 ##
 <p align="center">
@@ -21,10 +22,10 @@ For scraping script use simple gnu utils like sed, awk, paste, cut.
 ## Installation
 
 ### cURL
-cURL **notflix** to your **$PATH** and give execute permissions.
+cURL **mov-cli** to your **$PATH** and give execute permissions.
 
 ```sh
-$ sudo curl -sL "https://raw.githubusercontent.com/Bugswriter/notflix/master/notflix" -o /usr/local/bin/notflix
+$ sudo curl -sL "https://raw.githubusercontent.com/ludovici-philippus/mov-cli/master/mov-cli" -o /usr/local/bin/notflix
 $ sudo chmod +x /usr/local/bin/notflix
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
